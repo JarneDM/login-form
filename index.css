@@ -1,0 +1,87 @@
+body{
+    background-image: linear-gradient(purple, blueviolet,blue);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    height: 71.9vh;
+}
+
+.login-form{
+    border: 2px solid blueviolet;
+    border-radius: 5px;
+    height: 350px;
+    width: 250px;
+    align-items: center;
+    margin: auto;
+    margin-top: 250px;
+    background-color: white;
+}
+
+.login-title{
+    align-self: center;
+    text-align: center;
+    border: 0px solid black;
+    margin: auto;
+    margin-top: 35px;
+    color: black;
+}
+
+#title-text{
+    margin: auto;
+}
+
+.login-items{
+    align-items: center;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.label-id{
+    align-items: center;
+    margin-left: 20px;
+    color: black;
+}
+
+.input-id{
+    align-items: center;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    width: 200px;
+    height: 30px;
+    border: 0px solid black;
+    background-color: gainsboro;
+}
+
+
+
+#remember-cb{
+    margin-left: 20px;
+    margin-bottom: 4px;
+    border: 0px solid black;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 0px;
+}
+
+#cb-text{
+    color:gray;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 11px;
+}
+
+#submit-btn{
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 60px;
+    height: 40px;
+    width: 130px;
+    background-color: #AA336A;
+    border: 0px solid black;
+    color: white;
+    font-size: medium;
+}
+
+
+
+::placeholder{
+    color: grey;
+}
