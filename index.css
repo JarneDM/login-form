@@ -8,7 +8,7 @@ body{
     border: 2px solid blueviolet;
     border-radius: 5px;
     box-shadow: 5px 10px 8px #363535;
-    height: 370px;
+    height: 390px;
     width: 250px;
     align-items: center;
     margin: auto;
@@ -99,6 +99,7 @@ body{
 
 .login-btns{
     margin-left: 38px;
+    margin-bottom: 10px;
 }
 
 #github-btn{
@@ -136,6 +137,12 @@ body{
 
 #facebook-btn:hover{
     background-color: #e4ebe5;
+}
+
+#copyright{
+    margin-left: 49px;
+    margin-top: 10px;
+    font-size: 10px;
 }
 
 ::placeholder{
