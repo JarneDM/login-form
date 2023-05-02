@@ -7,6 +7,7 @@ body{
 .login-form{
     border: 2px solid blueviolet;
     border-radius: 5px;
+    box-shadow: 5px 10px 8px #363535;
     height: 350px;
     width: 250px;
     align-items: center;
