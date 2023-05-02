@@ -8,7 +8,7 @@ body{
     border: 2px solid blueviolet;
     border-radius: 5px;
     box-shadow: 5px 10px 8px #363535;
-    height: 350px;
+    height: 370px;
     width: 250px;
     align-items: center;
     margin: auto;
@@ -73,8 +73,9 @@ body{
 
 #submit-btn{
     align-items: center;
-    margin-top: 20px;
+    margin-top: 0px;
     margin-left: 20px;
+    margin-bottom:10px;
     height: 35px;
     width: 205px;
     background-color: #AA336A;
@@ -87,6 +88,54 @@ body{
 
 #submit-btn:hover{
     background-color: #8B2744;
+}
+
+#login-with{
+    margin-top: 10px;
+    margin-left: 87.5px;
+    font-size: 11px;
+    color: grey;
+}
+
+.login-btns{
+    margin-left: 38px;
+}
+
+#github-btn{
+    align-items: center;
+    margin-top: 0px;
+    margin-bottom:10px;
+    margin-right: 5px;
+    height: 35px;
+    width: 80px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    color: black;
+    font-size: 12px;
+    cursor:pointer;
+}
+
+#facebook-btn{
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom:10px;
+    height: 35px;
+    width: 80px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    color: black;
+    font-size: 12px;
+    cursor:pointer;
+}
+
+#github-btn:hover{
+    background-color: #e4ebe5;
+}
+
+#facebook-btn:hover{
+    background-color: #e4ebe5;
 }
 
 ::placeholder{
