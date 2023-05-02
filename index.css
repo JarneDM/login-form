@@ -85,7 +85,9 @@ body{
     cursor:pointer;
 }
 
-
+#submit-btn:hover{
+    background-color: #8B2744;
+}
 
 ::placeholder{
     color: grey;
