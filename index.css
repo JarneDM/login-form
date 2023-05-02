@@ -61,6 +61,7 @@ body{
     display: inline-block;
     vertical-align: middle;
     margin-right: 0px;
+    cursor:pointer;
 }
 
 #cb-text{
@@ -81,6 +82,7 @@ body{
     border-radius: 5px;
     color: white;
     font-size: 12px;
+    cursor:pointer;
 }
 
 
